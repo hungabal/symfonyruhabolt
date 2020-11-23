@@ -20,8 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c8fe581-f64b-4534-82f0-13193fb07874" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/RuhaShop/public/assets/css/bootstrap.min.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/RuhaShop/public/assets/css/demos/carousel-layout.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/RuhaShop/public/assets/css/demos/demo-10.css" afterDir="false" />
@@ -1926,13 +1924,857 @@
       <change afterPath="$PROJECT_DIR$/RuhaShop/public/assets/vendor/line-awesome/line-awesome/line-awesome/fonts/line-awesomeeb4f.woff2" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/RuhaShop/public/popup/quickView.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/RuhaShop/src/Controller/DefaultController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/src/Controller/MenuController.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/RuhaShop/src/Entity/Vasarlo.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/RuhaShop/src/Repository/VasarloRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/templates/header.html.twig" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/RuhaShop/templates/home_page.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/symfonyruhabolt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symfonyruhabolt.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/templates/newsletter.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/App_KernelDevDebugContainer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getAnnotations_CacheService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getAnnotations_CacheWarmerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getCacheClearerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getCachePoolClearer_CacheWarmerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getCacheWarmerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getCache_AppClearerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getCache_GlobalClearerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getCache_SystemClearerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getConsole_CommandLoaderService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getConsole_Command_AboutService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getConsole_Command_AssetsInstallService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getConsole_Command_CacheClearService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getConsole_Command_CachePoolClearService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getConsole_Command_CachePoolDeleteService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getConsole_Command_CachePoolListService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getConsole_Command_CachePoolPruneService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getConsole_Command_CacheWarmupService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getConsole_Command_ConfigDebugService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getConsole_Command_ConfigDumpReferenceService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getConsole_Command_ContainerDebugService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getConsole_Command_ContainerLintService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getConsole_Command_DebugAutowiringService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getConsole_Command_EventDispatcherDebugService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getConsole_Command_FormDebugService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getConsole_Command_RouterDebugService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getConsole_Command_RouterMatchService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getConsole_Command_SecretsDecryptToLocalService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getConsole_Command_SecretsEncryptFromLocalService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getConsole_Command_SecretsGenerateKeyService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getConsole_Command_SecretsListService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getConsole_Command_SecretsRemoveService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getConsole_Command_SecretsSetService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getConsole_Command_TranslationDebugService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getConsole_Command_TranslationUpdateService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getConsole_Command_XliffLintService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getConsole_Command_YamlLintService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getConsole_ErrorListenerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getContainer_EnvVarProcessorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getContainer_EnvVarProcessorsLocatorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getContainer_GetenvService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDebug_ArgumentResolver_DefaultService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDebug_ArgumentResolver_NotTaggedControllerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDebug_ArgumentResolver_RequestAttributeService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDebug_ArgumentResolver_RequestService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDebug_ArgumentResolver_ServiceService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDebug_ArgumentResolver_SessionService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDebug_ArgumentResolver_VariadicService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDebug_DumpListenerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDebug_FileLinkFormatter_UrlFormatService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDebug_Security_UserValueResolverService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDebug_Security_Voter_Security_Access_AuthenticatedVoterService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDebug_Security_Voter_Security_Access_ExpressionVoterService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDebug_Security_Voter_Security_Access_SimpleRoleVoterService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDebug_Security_Voter_VoteListenerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDefaultControllerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDoctrineMigrations_CurrentCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDoctrineMigrations_DiffCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDoctrineMigrations_DumpSchemaCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDoctrineMigrations_ExecuteCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDoctrineMigrations_GenerateCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDoctrineMigrations_LatestCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDoctrineMigrations_MigrateCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDoctrineMigrations_RollupCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDoctrineMigrations_StatusCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDoctrineMigrations_SyncMetadataCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDoctrineMigrations_UpToDateCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDoctrineMigrations_VersionCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDoctrineMigrations_VersionsCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDoctrine_CacheClearMetadataCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDoctrine_CacheClearQueryCacheCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDoctrine_CacheClearResultCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDoctrine_CacheCollectionRegionCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDoctrine_ClearEntityRegionCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDoctrine_ClearQueryRegionCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDoctrine_DatabaseCreateCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDoctrine_DatabaseDropCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDoctrine_DatabaseImportCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDoctrine_EnsureProductionSettingsCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDoctrine_MappingConvertCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDoctrine_MappingImportCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDoctrine_MappingInfoCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDoctrine_Migrations_DependencyFactoryService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDoctrine_Orm_DefaultEntityManager_PropertyInfoExtractorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDoctrine_Orm_DefaultListeners_AttachEntityListenersService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDoctrine_Orm_ProxyCacheWarmerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDoctrine_Orm_Validator_UniqueService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDoctrine_QueryDqlCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDoctrine_QuerySqlCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDoctrine_SchemaCreateCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDoctrine_SchemaDropCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDoctrine_SchemaUpdateCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getDoctrine_SchemaValidateCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getErrorControllerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getErrorHandler_ErrorRenderer_HtmlService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getFilesystemService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getForm_ChoiceListFactory_CachedService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getForm_FactoryService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getForm_RegistryService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getForm_ServerParamsService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getForm_TypeExtension_CsrfService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getForm_TypeExtension_Form_DataCollectorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getForm_TypeExtension_Form_HttpFoundationService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getForm_TypeExtension_Form_TransformationFailureHandlingService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getForm_TypeExtension_Form_ValidatorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getForm_TypeExtension_Upload_ValidatorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getForm_TypeGuesser_DoctrineService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getForm_TypeGuesser_ValidatorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getForm_Type_ChoiceService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getForm_Type_ColorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getForm_Type_EntityService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getForm_Type_FileService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getForm_Type_FormService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getFragment_Renderer_InlineService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getLoaderInterfaceService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getMaker_AutoCommand_MakeAuthService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getMaker_AutoCommand_MakeCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getMaker_AutoCommand_MakeControllerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getMaker_AutoCommand_MakeCrudService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getMaker_AutoCommand_MakeDockerDatabaseService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getMaker_AutoCommand_MakeEntityService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getMaker_AutoCommand_MakeFixturesService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getMaker_AutoCommand_MakeFormService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getMaker_AutoCommand_MakeFunctionalTestService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getMaker_AutoCommand_MakeMessageService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getMaker_AutoCommand_MakeMessengerMiddlewareService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getMaker_AutoCommand_MakeMigrationService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getMaker_AutoCommand_MakeRegistrationFormService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getMaker_AutoCommand_MakeResetPasswordService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getMaker_AutoCommand_MakeSerializerEncoderService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getMaker_AutoCommand_MakeSerializerNormalizerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getMaker_AutoCommand_MakeSubscriberService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getMaker_AutoCommand_MakeTwigExtensionService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getMaker_AutoCommand_MakeUnitTestService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getMaker_AutoCommand_MakeUserService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getMaker_AutoCommand_MakeValidatorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getMaker_AutoCommand_MakeVoterService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getMaker_DoctrineHelperService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getMaker_EntityClassGeneratorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getMaker_FileManagerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getMaker_GeneratorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getMaker_Renderer_FormTypeRendererService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getMenuControllerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getMimeTypesService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getMonolog_Command_ServerLogService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getMonolog_Logger_SecurityService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getPropertyAccessorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getPropertyInfo_SerializerExtractorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getRedirectControllerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getResponseService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getRouter_CacheWarmerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getRouting_LoaderService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getRunSqlCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getSecrets_VaultService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getSecurity_AccessListenerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getSecurity_AuthenticationUtilsService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getSecurity_Authentication_Listener_Anonymous_MainService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getSecurity_ChannelListenerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getSecurity_Command_UserPasswordEncoderService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getSecurity_ContextListener_0Service.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getSecurity_Csrf_TokenManagerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getSecurity_Csrf_TokenStorageService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getSecurity_Firewall_Map_Context_DevService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getSecurity_Firewall_Map_Context_MainService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getSecurity_Logout_Listener_CsrfTokenClearingService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getSecurity_PasswordEncoderService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getSecurity_Validator_UserPasswordService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getSerializerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getSerializer_Mapping_CacheClassMetadataFactoryService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getSerializer_Mapping_CacheWarmerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getServicesResetterService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getSessionService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getSession_Storage_NativeService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getTemplateControllerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getTranslation_ExtractorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getTranslation_Loader_CsvService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getTranslation_Loader_DatService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getTranslation_Loader_IniService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getTranslation_Loader_JsonService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getTranslation_Loader_MoService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getTranslation_Loader_PhpService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getTranslation_Loader_PoService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getTranslation_Loader_QtService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getTranslation_Loader_ResService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getTranslation_Loader_XliffService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getTranslation_Loader_YmlService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getTranslation_ReaderService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getTranslation_WarmerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getTwig_Command_DebugService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getTwig_Command_LintService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getTwig_Form_RendererService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getTwig_Mailer_MessageListenerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getTwig_Runtime_HttpkernelService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getTwig_Runtime_SecurityCsrfService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getTwig_TemplateCacheWarmerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getValidator_EmailService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getValidator_ExpressionService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getValidator_Mapping_CacheWarmerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getValidator_NotCompromisedPasswordService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getVarDumper_Command_ServerDumpService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getVarDumper_ContextualizedCliDumper_InnerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getVasarloRepositoryService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getWebProfiler_Controller_ExceptionPanelService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getWebProfiler_Controller_ProfilerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/getWebProfiler_Controller_RouterService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/get_ServiceLocator_Beq5mCoService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/get_ServiceLocator_C9JCBPCService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/get_ServiceLocator_G9CqTPpService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/get_ServiceLocator_IEz6L2DService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerEmISY7S/removed-ids.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y.legacy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/App_KernelDevDebugContainer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getAnnotations_CacheService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getAnnotations_CacheWarmerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getCacheClearerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getCachePoolClearer_CacheWarmerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getCacheWarmerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getCache_AppClearerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getCache_GlobalClearerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getCache_SystemClearerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getConsole_CommandLoaderService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getConsole_Command_AboutService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getConsole_Command_AssetsInstallService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getConsole_Command_CacheClearService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getConsole_Command_CachePoolClearService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getConsole_Command_CachePoolDeleteService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getConsole_Command_CachePoolListService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getConsole_Command_CachePoolPruneService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getConsole_Command_CacheWarmupService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getConsole_Command_ConfigDebugService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getConsole_Command_ConfigDumpReferenceService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getConsole_Command_ContainerDebugService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getConsole_Command_ContainerLintService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getConsole_Command_DebugAutowiringService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getConsole_Command_EventDispatcherDebugService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getConsole_Command_FormDebugService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getConsole_Command_RouterDebugService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getConsole_Command_RouterMatchService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getConsole_Command_SecretsDecryptToLocalService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getConsole_Command_SecretsEncryptFromLocalService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getConsole_Command_SecretsGenerateKeyService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getConsole_Command_SecretsListService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getConsole_Command_SecretsRemoveService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getConsole_Command_SecretsSetService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getConsole_Command_TranslationDebugService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getConsole_Command_TranslationUpdateService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getConsole_Command_XliffLintService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getConsole_Command_YamlLintService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getConsole_ErrorListenerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getContainer_EnvVarProcessorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getContainer_EnvVarProcessorsLocatorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getContainer_GetenvService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDebug_ArgumentResolver_DefaultService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDebug_ArgumentResolver_NotTaggedControllerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDebug_ArgumentResolver_RequestAttributeService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDebug_ArgumentResolver_RequestService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDebug_ArgumentResolver_ServiceService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDebug_ArgumentResolver_SessionService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDebug_ArgumentResolver_VariadicService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDebug_DumpListenerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDebug_FileLinkFormatter_UrlFormatService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDebug_Security_UserValueResolverService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDebug_Security_Voter_Security_Access_AuthenticatedVoterService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDebug_Security_Voter_Security_Access_ExpressionVoterService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDebug_Security_Voter_Security_Access_SimpleRoleVoterService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDebug_Security_Voter_VoteListenerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDefaultControllerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDoctrineMigrations_CurrentCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDoctrineMigrations_DiffCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDoctrineMigrations_DumpSchemaCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDoctrineMigrations_ExecuteCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDoctrineMigrations_GenerateCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDoctrineMigrations_LatestCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDoctrineMigrations_MigrateCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDoctrineMigrations_RollupCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDoctrineMigrations_StatusCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDoctrineMigrations_SyncMetadataCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDoctrineMigrations_UpToDateCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDoctrineMigrations_VersionCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDoctrineMigrations_VersionsCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDoctrine_CacheClearMetadataCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDoctrine_CacheClearQueryCacheCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDoctrine_CacheClearResultCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDoctrine_CacheCollectionRegionCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDoctrine_ClearEntityRegionCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDoctrine_ClearQueryRegionCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDoctrine_DatabaseCreateCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDoctrine_DatabaseDropCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDoctrine_DatabaseImportCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDoctrine_EnsureProductionSettingsCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDoctrine_MappingConvertCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDoctrine_MappingImportCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDoctrine_MappingInfoCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDoctrine_Migrations_DependencyFactoryService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDoctrine_Orm_DefaultEntityManager_PropertyInfoExtractorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDoctrine_Orm_DefaultListeners_AttachEntityListenersService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDoctrine_Orm_ProxyCacheWarmerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDoctrine_Orm_Validator_UniqueService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDoctrine_QueryDqlCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDoctrine_QuerySqlCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDoctrine_SchemaCreateCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDoctrine_SchemaDropCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDoctrine_SchemaUpdateCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getDoctrine_SchemaValidateCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getErrorControllerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getErrorHandler_ErrorRenderer_HtmlService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getFilesystemService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getForm_ChoiceListFactory_CachedService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getForm_FactoryService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getForm_RegistryService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getForm_ServerParamsService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getForm_TypeExtension_CsrfService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getForm_TypeExtension_Form_DataCollectorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getForm_TypeExtension_Form_HttpFoundationService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getForm_TypeExtension_Form_TransformationFailureHandlingService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getForm_TypeExtension_Form_ValidatorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getForm_TypeExtension_Upload_ValidatorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getForm_TypeGuesser_DoctrineService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getForm_TypeGuesser_ValidatorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getForm_Type_ChoiceService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getForm_Type_ColorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getForm_Type_EntityService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getForm_Type_FileService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getForm_Type_FormService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getFragment_Renderer_InlineService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getLoaderInterfaceService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getMaker_AutoCommand_MakeAuthService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getMaker_AutoCommand_MakeCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getMaker_AutoCommand_MakeControllerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getMaker_AutoCommand_MakeCrudService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getMaker_AutoCommand_MakeDockerDatabaseService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getMaker_AutoCommand_MakeEntityService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getMaker_AutoCommand_MakeFixturesService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getMaker_AutoCommand_MakeFormService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getMaker_AutoCommand_MakeFunctionalTestService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getMaker_AutoCommand_MakeMessageService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getMaker_AutoCommand_MakeMessengerMiddlewareService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getMaker_AutoCommand_MakeMigrationService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getMaker_AutoCommand_MakeRegistrationFormService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getMaker_AutoCommand_MakeResetPasswordService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getMaker_AutoCommand_MakeSerializerEncoderService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getMaker_AutoCommand_MakeSerializerNormalizerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getMaker_AutoCommand_MakeSubscriberService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getMaker_AutoCommand_MakeTwigExtensionService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getMaker_AutoCommand_MakeUnitTestService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getMaker_AutoCommand_MakeUserService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getMaker_AutoCommand_MakeValidatorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getMaker_AutoCommand_MakeVoterService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getMaker_DoctrineHelperService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getMaker_EntityClassGeneratorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getMaker_FileManagerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getMaker_GeneratorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getMaker_Renderer_FormTypeRendererService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getMimeTypesService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getMonolog_Command_ServerLogService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getMonolog_Logger_SecurityService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getPropertyAccessorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getPropertyInfo_SerializerExtractorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getRedirectControllerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getResponseService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getRouter_CacheWarmerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getRouting_LoaderService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getRunSqlCommandService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getSecrets_VaultService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getSecurity_AccessListenerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getSecurity_AuthenticationUtilsService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getSecurity_Authentication_Listener_Anonymous_MainService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getSecurity_ChannelListenerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getSecurity_Command_UserPasswordEncoderService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getSecurity_ContextListener_0Service.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getSecurity_Csrf_TokenManagerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getSecurity_Csrf_TokenStorageService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getSecurity_Firewall_Map_Context_DevService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getSecurity_Firewall_Map_Context_MainService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getSecurity_Logout_Listener_CsrfTokenClearingService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getSecurity_PasswordEncoderService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getSecurity_Validator_UserPasswordService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getSerializerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getSerializer_Mapping_CacheClassMetadataFactoryService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getSerializer_Mapping_CacheWarmerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getServicesResetterService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getSessionService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getSession_Storage_NativeService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getTemplateControllerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getTranslation_ExtractorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getTranslation_Loader_CsvService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getTranslation_Loader_DatService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getTranslation_Loader_IniService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getTranslation_Loader_JsonService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getTranslation_Loader_MoService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getTranslation_Loader_PhpService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getTranslation_Loader_PoService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getTranslation_Loader_QtService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getTranslation_Loader_ResService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getTranslation_Loader_XliffService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getTranslation_Loader_YmlService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getTranslation_ReaderService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getTranslation_WarmerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getTwig_Command_DebugService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getTwig_Command_LintService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getTwig_Form_RendererService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getTwig_Mailer_MessageListenerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getTwig_Runtime_HttpkernelService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getTwig_Runtime_SecurityCsrfService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getTwig_TemplateCacheWarmerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getValidator_EmailService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getValidator_ExpressionService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getValidator_Mapping_CacheWarmerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getValidator_NotCompromisedPasswordService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getVarDumper_Command_ServerDumpService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getVarDumper_ContextualizedCliDumper_InnerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getVasarloRepositoryService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getWebProfiler_Controller_ExceptionPanelService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getWebProfiler_Controller_ProfilerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/getWebProfiler_Controller_RouterService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/get_ServiceLocator_Beq5mCoService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/get_ServiceLocator_C9JCBPCService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/get_ServiceLocator_IEz6L2DService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/ContainerVH0xJ7Y/removed-ids.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/+/4/0bpPs2etzUkncY-3VWzw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/+/C/aKTWdAZRqIYb+-O0tG2g" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/+/C/rSDDdhIR4AC4Kw1NRj3g" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/+/G/tmSwQUauf7Ro-Sasfj9w" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/+/L/unMcRON78HNn2RNIcSKQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/+/R/0Oof8ybB2zIl+tEzwhhg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/+/U/Cd+PCJDxH3rCrnCz5v3g" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/-/H/MVF7-eOkaKOLhKOQ1IJg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/-/P/B4NtMfS6U4-VHgktK2-A" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/-/V/jhATtKvgcLEO5aETm2pg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/0/1/rUbkxgEQwR0XhV3bfiLg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/0/3/OLZM5MBKfjR6gZf4NkoQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/0/3/mTtMp5RrFpesikbKjxIw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/0/C/3XbM58tNWSygN-8y6a-g" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/0/D/n3cFI9Oga0unjuWl8qsw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/0/H/5YvBFjjcghEve4kMcVWQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/0/H/J-Nco+JcaW71Ozk5SH5w" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/0/I/UQToyeaNkF29vz1qltGA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/0/J/kZvjbzqQWjywYl92mYTQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/0/M/UpA7DE5ywZWacu9mHr6A" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/0/S/LYmk-vIkOH9DPwtPIKRg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/0/U/G7U1BO5ZptWJlHaksnyQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/1/N/A+FjMlTTl4dN9JYJShCA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/1/N/XjHlLW0V-DP-vdrGKzaw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/1/O/uP9esyNkn0A7Nya-k8iA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/1/T/XB73HFkdr8FxlbtZMCJQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/2/C/6Q8Tsru61qZ9+CvvFipA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/2/C/OJ8cEIprpolTITJjsdeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/2/D/ZJz-oIRCnh1JLglxiNlg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/2/H/J21bAEQcdbJQPXRh4A5w" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/2/I/DN3d9F+-kJ6X3th6JXcA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/2/R/H0+ON7t67qJgboCfqZ5w" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/3/C/JD8Z1jqPimBJipj1f7-A" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/3/L/PmLgSDtmSi5CLJHYmQEg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/3/N/TjsKY6tAk15BJDzcBkbQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/3/Z/CoWuEFmAQEOXf5aYqGhA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/4/4/efstjBrn3nKnq5vfYKdQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/4/M/Bfrq9OGIP-JbqqKEr+Ww" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/4/Q/KPXYdqeRzua0EOrNDqFA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/4/X/eThDn8HUuYU0Sgg6JEtA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/5/I/h5EpMYT4xwcRlbDbBx3w" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/5/K/Hx7ZkAzuyRdTELDRcV+w" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/5/W/VG4YJKI6B34uAgldQz4g" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/5/Y/ptce27IBAMbTZWiP4hbg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/6/2/QS7Nd7rO0vk1PgHw9teA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/6/4/Y2Zxwbd+G9QNbu-TevSQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/6/H/quigoxHrbOntfk5xo6XQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/6/J/Oo+u4PsnGX6K5Be-OsPw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/6/Q/2WmCCiJD0Xcb62S7lDEA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/7/4/I3XWLlUX0hgEcZpZHf-w" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/7/A/EyZpsKvRG3XUDycjwOSg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/7/A/OTRV2Jj6OjML5S3OiVeQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/7/A/qQhEpzn-Jdy-Hrh0N4SQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/7/B/FsBaGQygrFt4qp8hy5Hg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/7/E/JAVvxMVokZGBZ6Ddzp3A" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/7/O/fFuiVMwAdEhAaN48YwRQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/7/P/kwUyIKNp26SgWSG9S9sw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/7/S/KEv7tiejRT6A4OhnRV2A" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/8/I/ef4Q2lMtWip9bwp1X2ag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/8/K/9mZPpFp0FBcDcVUjQBgA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/8/X/CiKLMaSJPcYkiwWWs2uA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/9/B/b4-Ha88EMmb+KMXyb1lQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/9/C/CaI13IcPZyTFdag+2s4A" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/9/C/tIOohRGQihLxIEH8nbrQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/9/G/Vb9rG-OHtwgIsNtKQ3SQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/9/O/ToOph2kC2x4FDF1Wznbw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/9/W/zOY8ms0Cs18Wl3DiSRrQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/A/+/caKioiVWwZunmha-H7YA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/A/1/a9yxuFiyz-ssFol+pzEg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/A/7/Lh6QWT8bjsjYE0GjWFWQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/A/A/l4InR3-dOmYY8i7x-LGA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/A/G/DZUwxIhInZg3bYYDezJA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/A/H/7Csng5TJbUsT47vtRn5g" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/A/K/cSi8cirS0oM9C-bl23Ww" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/A/N/YHG-Bqp1GXfiHw0oYuCg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/A/O/yH+t7pbWQ7jTpYQ0r7zw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/A/S/iESPuFsTo905jDdxK3WQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/A/S/tjtbhL1sc5V1VKcuLV2g" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/A/X/6zyRGvjZO00lKS89hirg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/B/-/haRd17jklj7vHK4vnjmQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/B/G/GDm1XvMjw1954wdpgwBg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/B/H/XXiDfDRluP-b6MvrGVhA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/B/I/-ztonoEWqxmbi2n87BzQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/B/I/gyN91tvO1sgpk5L62iBQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/B/J/xF5NfQxW17p3PPf3fhpw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/B/L/dCGFUr6WBpjcligYtryw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/B/N/zW4FQGB9PsNJdaIsrGFA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/B/Q/hvbupTiNXRmGbv8-eHRg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/B/S/ATfkMQRaorcIzJ8p5IDA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/B/S/y94VeazHlW9hdPjn-BgA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/B/U/EZrpWNZB4KSM+STYKrKQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/B/V/028Iq3jJ0QHNxc6fy-bQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/B/Z/vu6FKu10Q1AxtiOm5Sow" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/C/0/BRniY5krNDCajvVEbEMQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/C/1/VjpgnUft9khEgcMbaCIw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/C/3/O6rbir4KlMtPiOuTOB+w" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/C/D/1CMKw3NZ6bIAcmWEwXdQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/C/O/r92Sm4NUVN2RrOZ7ZnJQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/C/R/0cBkVzi2Rm1imSvD6I3w" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/C/W/n6-T6NOFNTSEMZJ5GM-Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/D/2/eSQuorgl0Y25JUaoGkmQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/D/4/Hx9l7uZvx8zefvqF4dlw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/D/6/Xb0w1BSKdBXjWzL3I0Yg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/D/9/cu-oVjtxwXjTe85tYJDQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/D/A/a7zccxB4XZaLcQj9qPQQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/D/H/PvEhyJbjKIaa0mCPz2eA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/D/I/nSmBIBnNIkH3mGsuVeJA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/D/K/UJ1mfHRrJB61+JvVSKLA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/D/L/eqJUVs4G-RxyoVkvTXNg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/D/O/sBJCX5VOLHvCKPUqc+aQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/D/U/Jwcb6mT9UlvE-KchWirA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/D/V/oklPeV0+bbTnTyCTdtDw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/D/W/yTvHASd9DbzX8Kbe83Bw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/D/X/mHNDLVATjL7OtxQpnBmQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/E/4/0iyl4aSA+Ms30cKGQPjg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/E/B/IqnsRuHAGwWCQtJ1NWUA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/E/D/GN94co3nHZTwNmuecvCw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/E/G/-j9vorXlCbf34N-9z4ow" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/E/I/3DJueZTkoMUTYyLMPhyw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/E/K/3ddwC60HeaEHA95S9URw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/E/O/pAH49zhhG7XqzlI6NkIw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/E/P/-hFEMPvqjSLJ7MkD4EEQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/E/T/MoEkhVP7oWjD1NTanXZA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/E/U/F5Y97mv1dODtTjRdEFag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/E/X/CCwvI7TAYWnCsIgmsHmw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/F/+/SswNcHUi7nZZ5F0a66hA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/F/2/pc19i6T+dHO4zPLhBV2Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/F/9/DQliw1nd+2k6txS43HPg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/F/9/HNmVqJOvqfw702hc5DUw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/F/A/ReLNw-ls+LpQaqFK0r+Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/F/C/qtFS6PcyBmQjZ0J4XCGw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/F/I/bzuAMn-OqGrJfHh0wLPQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/F/J/cNWMP5qgAmFnPKTDQYuQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/F/L/AAkxF+50VJUh4Nu5-SMQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/F/L/QNAf9yrSaLaMKMQaWaqA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/F/M/MuijCkvcMy4fMQTu5N6w" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/F/N/tY+3B-sSn8osRhnQ8uxg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/F/O/azstdxA+QUqM2wyDXSmg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/F/P/Bf-UiPh1VBF5OIGb7qSg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/F/R/ShYkoUOT4Xsruit6Mmsg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/F/T/5qNAmwhllGrvxd98jxRA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/F/U/TlM-ABKYydAQqxrM4PwA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/F/Y/rbZ+IsfMPrdUkREd-ejQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/F/Z/UX8wifFQffXDHptJPiXQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/G/+/82txECbD78sufDpKFkgw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/G/0/iHlH2NQFu2+eciTE0qvg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/G/1/WOOmj-FOg1BIaUPvr9eA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/G/2/bWEKlx5hMMMdxs9Xtg8g" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/G/9/9PIzhU1YEhQT6bjQw6Wg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/G/A/AJb+CPFJMgkjEzfZnyZg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/G/B/HDXKn+VGGKpnHIko7Rbw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/G/C/gtAn1HiUewFi3Lw9PYiA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/G/I/8JdWMzLaCczmwz2t+big" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/G/J/KE2fMT0Eh5xsiUQ9ONfA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/G/J/PfVlCO8NupqKtZBATxdg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/G/J/RQV+eAxF4qV3RNk2rRYA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/G/O/X5zQfchAuYuqM+4Ok0AQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/G/R/usq38MW4T+5JGez1FyZA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/G/U/Ut+MxEXBkT+Mh6Z5OllA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/G/W/1ilYOTmKNptLZlZOsrzQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/G/Y/TpnhdHkuSSDlkA9zNw0g" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/H/3/5FkAkcI3QOiY4D1NDVFg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/H/9/CAiCrr2YzF3gdbqYrb4Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/H/H/oT0JGlZMuYHDzhWQRnag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/H/V/h-5ErCOJy2oUDOfM-KOg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/I/1/ROJpIc-d9zT8K1qImt4Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/I/7/0hwk+04+2RJpJvTvv3Gg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/I/C/AooVMnihfMDXwMxFAp2Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/I/H/jlZwGyf2KIOe45KtnYig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/I/L/gNnLLCsAeesIUfcd-QnQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/I/N/r7ZcprxTODtFauZSTf8g" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/I/Q/2yIknsVR8ARmw61ozjqg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/I/Z/2ziJWGpg3rLC70czhiIg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/J/3/H2n44TLNs9iKR3ADwrqg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/J/D/SkTVd+BDclxVYoMmEK1w" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/J/E/w0MYeEsFlzIVH0xzwIjQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/J/H/1ctvs8QT6cS7lnH6gLeQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/J/H/2O-7+oFUy9wtv-3ofl6g" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/J/K/l7VmZ80aiCvaSWJvf7wA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/J/K/wWgcJpnRPHJsAZ034w7A" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/J/L/IB-32i0hPteuufDcVjYg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/J/L/ZRIGVDeFNMrv2dH-gesw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/J/P/SABWKXw0vZ8E6d5-Wkiw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/J/S/CRgfGZbXWIKaIUWsuUsw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/J/X/uBy7bGT25E2rmxKTLxAw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/K/C/PUL2b02QkePBwiUAfmFA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/K/E/KBx3nYJZcBgCuF8j5dVg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/K/E/w7fQ7oYxsqGGmycQr+fw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/K/L/7P1Tf7e9FB-LdjC1yQWA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/K/M/lM2Z7vPYlOE503tbR5Hw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/K/Q/f3rBEnBbpTqnNiPmpTsA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/K/R/XJPvn8NQc3rOnh24BAGA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/K/S/8m-PCva-qCAsIF2HL6sA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/K/S/SvXpk0on8lCvSQqJVpZA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/K/S/qQX8TowCtQ7LB1bwNrBw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/K/U/pE5rqNh6M29n1btIJkJg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/K/Z/B7-AMcmVvXGF+b2GTR9w" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/L/1/O+a-2GjD7i2vVKhy8n9g" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/L/5/Hpc7hklRFpl1i1bLuE6Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/L/7/utIu+jQC+ICra+Frwgiw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/L/A/MLD1I14x4h3-mfB4msgw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/L/A/Yb93OXS-wRDYydzinX9A" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/L/B/-AXI9VQlKzgODPyY3+MA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/L/C/XG364Tz9y+srlRZYoPVQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/L/E/lbcGwZJrqPf6JqX9rTkw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/L/O/YKTtBgDMW6P71R2XClig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/L/O/eQB+UkqV4Jv9fqSUbwvA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/L/W/bw+XT+Vs0Et5hIULVV-w" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/L/Y/IwmqGHi2b1fy7n6N-dlg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/M/2/3V75TkwSg3vj-8me2xeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/M/E/Y7JRmPM9hhe5CFfBQHow" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/M/I/qFGAnNEgEpaRw4X0Grmg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/M/J/JQ2sjriAGHZ+Ff7gifAQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/M/K/XwkJZCR5WgI97U+aeZXQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/M/T/94NPXxBkMkesJceVNUow" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/M/T/FJXtn6FpNn1y-xLD7gbg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/M/Y/0vw3Y5yc5cRJRscw4zyQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/M/Y/kVMGveYl4CftI-K4PJsQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/M/Z/p3O1hEFZkPK19fisdqRA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/N/3/jqrL3LL8tOj9ZEuGmhog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/N/5/mRxwM2atGxkWOSAKs5bw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/N/B/yPJ8zL9Wx-7ZLKTHkhxA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/N/L/7hn06r1T-g5uRBeHvoCQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/N/N/xg2YeMP5JzC3-i9DCgdA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/N/O/QhfW36Z9jQJxckQAMwPA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/N/Z/b3kWC74DX6KhISvTNj2w" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/N/Z/pI+8icK7XJU53xXO-d7A" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/O/7/Dx7r9JlImXb43X8Zbarg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/O/C/NBIiXpMdz9o5NYazsbbg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/O/H/EV3DlUKYQqOUa+mY9hWA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/O/I/5BYPO6ie3qLyfmxWkOlg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/O/I/buwesg8mVMZHIWjjU5sQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/O/I/tEOn-1mvcY-DAL9zeVyA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/O/J/EW6bMBJ8gwssrEgp6cBQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/O/J/gvPjE8VY59vH8XaXOMNA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/O/M/JeFZTLjXZveRXPaPuflQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/O/M/m3ZpAcwa+ad9RDvO4w+Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/O/R/iYEU2L7pyl0yNuCguQ7A" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/O/R/vkzJUNo2KWeESDOBcEcg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/O/S/-OrxtBzpqLcIdq56aPEg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/O/S/bzw3Feb0iAddPXueBuSA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/O/X/7UxK6zk6w8XDl7MjniXw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/P/2/72glr5q+0roOrMXvm86g" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/P/8/ahyOnnwucVXg6+m7la1Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/P/C/CoTfZG9Nf5pT0hLKopOA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/P/C/fyh435ccbUNVwTXU-DJw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/P/E/8hJMy8uOwsFzUAgPlbAQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/P/F/1PgAL4aBLy0iSitlIxaw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/P/I/lKUQoWw90pKgg-siC+VA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/P/J/65PQ-J1pbYYV+aS+XS3g" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/P/L/BEWjj-PN2ptxWpJQrCzw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/P/L/oLsl77ammDlzE22tpOAw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/P/N/59r-iSegNldOM1NA8d+w" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/P/P/CTEyzEWiaZQw027J-9bw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/P/V/0FFPO6aEWW1YfrJKUa5Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/P/V/1s+UAfLsIuJiiQx6r-lA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/P/X/HnZBnFY2GQisBTGgRLgw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/Q/0/oTU1KudMSTSeVeVg8IwQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/Q/2/OpskirTTK1TEwWkhxK-w" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/Q/A/ctoePjWGgzUHUpAUjbeQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/Q/B/wW10mbjLMNBUEvDeeMTg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/Q/B/xBw5NSBSErkze1-8oo0A" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/Q/D/V8YnrcVsRu9kpLJtv+bQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/Q/O/2aFhU9anQhjPVVLOTEIg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/Q/V/agqlJOuTHx9xmA9M68Pg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/Q/W/LULYADYuy5DdkqKf2Rxw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/R/+/btBapQ3lVssqjXp0NNZg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/R/A/qPtc5uoLCXDuZFlug9og" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/R/N/tkeVETJQ+mpocInliCUQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/R/P/W6tqyqAAenzTc3km6UDQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/R/P/z4y0JoKvWVESNHpP-+cQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/R/V/o4kuTY7m-7OLH1Te2-Hg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/S/C/OOq4jORDpR6fRD6H3cNw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/S/C/uZIy4K2AznZQtWOfXTwg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/S/G/QjRcPQohVwQlQPkzNldw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/S/H/hvUaWMrrPdJ6E07jXFYg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/S/O/dXw6ipSJ4b7JE6xvFVxQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/S/Q/1uTBektS+FGTN0QZMXHw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/S/W/alEHjDl7NXRzq-XSegww" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/S/Y/SbPOzelfydkOf-eOLseg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/T/3/wPBTBrRq1y2MfAdB0Utg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/T/8/RAYA7f3cgi6pEITwt97w" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/T/C/rd+PMd0b9JwpaSXavC7g" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/T/F/1uCLH0esNzbIY4MDnjFQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/T/F/KBPT0njUyUs4DBz03vKw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/T/H/W78D+XMA7pT5OydQGbLw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/T/H/c2mJE1J8jhUsJmlwxhEQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/T/K/e-bqu8kM4cDHQpJOeJdQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/T/M/IvbrS6okUU95NiTEn8-Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/T/M/xleMzvp-INB5KTilXYfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/T/N/fZUyuXWPIr9ZcGxEKI5Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/T/Q/6FpPP10ZXWwRIY5TV4rg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/T/T/HG6jwC0cILqC8t1OGl3g" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/T/T/p5CrwWHcLQwWFvmzne1Q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/T/V/s3SgEryTycFMw8d76ddQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/T/W/BchEXkK0hFTSv9uHLNow" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/U/3/IWdMCrs-3INPTcwpLpkw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/U/8/nbHc4NsiN3Yt9q3C1lQA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/U/9/072rYB0h6nqae59X9luQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/U/B/THVAGPKSyeHuOlA5QdcQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/U/D/n-e3kh4zro4MRHpwuOIQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/U/G/2FYhmhmC6Arxy37mOoMw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/U/G/N-meF9qLuTb-uoEqNxUA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/U/L/jDRZHx3EbOerWUWfe4yA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/U/Q/4Y8mPsCK6HZo0irPX2Vg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/U/R/e+yngEjCJ42rBR-5sO0w" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/U/T/K9ptn+cjf6+3cd1ufGig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/U/U/SwNXyXZowDX5270aJydg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/U/Z/TpeM9cF5kr6E9tdKHLRw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/V/2/Hg77vH89LbfNL5glg1Dg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/V/9/PTZJm7vJXxGPSM3lrHXQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/V/B/zT42h-Mv10hMmpqw1zQg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/V/C/pzdwdXajJ77E7ptef1yA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/V/C/vTCAvjV+q1ZKE2dPp6zA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/V/E/tBUKDbMAq8xezhciRbOg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/V/I/1GS0Z5eN5jWHiDGkPKEQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/V/K/Hsv8+ga5rt7Y7v0P7VSQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/V/M/8eQ0TfauazgBmj8uUsTg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/V/M/dx-DhZ1B2lS0e3l6trsQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/V/Q/+H0VSMQ0oYcU3vfLkePg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/V/S/YTMHwjJ9j55kLmoMhsdg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/V/U/VEmnHuJZbnu2bQmmy9sg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/V/V/nj6SmMFIA29zkNjjX8CQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/V/Y/a4+hF+PC4TXbngl6HcDg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/W/+/-IG4I3YGjuJaSFn8C3IA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/W/1/RKaUklJ20QchIG0fE-hw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/W/A/wA+rTsfVG1E3mmRt2OLw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/W/J/R9wtZh40NX8Tf8geAVBA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/W/P/+5qHMvbHVvxJb8SxG8cg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/W/P/xbjysVQ3g7V7Bg0336+w" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/W/R/rnTGcT4kXILoQHuBQd5g" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/W/U/TxOL61Cj-r6hrgRpzPEA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/W/Z/er1mI05tXBKxdFD-Uwig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/X/0/hI6DLnvMafrRpbhbDM6g" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/X/1/0G7WxB+J8VzWKbp2P6Aw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/X/1/im-wXzflt3E6wWBejv2g" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/X/D/rXD0VOxObDwmCVSAtiiQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/X/E/Q9LAnxGvGJuJq+1LqP6w" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/X/F/T-4l-2DYmhA8+ittFz1A" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/X/H/8YKCDEesz0YidTB1+oug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/X/L/jXrENiQOBbZDHL9DbUDw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/X/M/m4intxo+gpgc925Xcnpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/X/N/e+b8E1ulJWbZTjIyhtiA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/X/O/g5ELLYta3SVoiCEsD6Og" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/X/X/bOlHvDXWNVoe4A8PEqvw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/Y/B/STCCz6UwPlOGelnHS8EA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/Y/E/0dkUMSJ1W+KF8tUAgEKQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/Y/F/nSqX6Udw4Jtj1TqTWkVQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/Y/H/9yE+gLqfqOLXGcexBNHQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/Y/H/iidzmapDdd01xIUA0huw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/Y/I/QFKXQGRux6i2x1tYiYdw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/Y/K/2wLbp7-wEO09lYMhYV1g" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/Y/L/8s5sFJrxkVnR1s1fEjqA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/Y/T/dotVUh0Uidr3LGWsZRPw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/Y/V/4ENeTclvpPTxTkcDfjTA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/Y/Y/8AZJ1EJ0tJcf1Is3D3Ng" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/Z/0/laK9bJUt4o02FxpK7ciA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/Z/8/c6Nsjf8nxguHklgT6S9w" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/Z/B/PWEHkV+pLc+MtC+Q8aJQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/Z/C/j-bmepimx7-zVL9l0X2w" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/Z/F/snQ6QSiJD3JDreyzlptQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/Z/P/OJgPXaHwTHKbxE3tBpug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/Z/R/lTv3clhBqMZmEpsBaCvg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/Z/Y/NX9i-Ib8cErVwarmVExw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/Z/Y/RkIR-r5BftoeH3mx-dcg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/pools/kYXdr1K0Iy/Z/Y/iAJTIGXrIEoN18yA9WvQ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/profiler/00/14/711400" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/profiler/0f/57/b0570f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/profiler/0f/62/5d620f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/profiler/14/17/4c1714" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/profiler/1b/af/1eaf1b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/profiler/1c/16/46161c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/profiler/21/70/177021" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/profiler/29/cf/aecf29" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/profiler/2c/31/98312c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/profiler/2f/57/45572f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/profiler/34/ad/eead34" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/profiler/52/e0/65e052" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/profiler/61/c7/c7c761" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/profiler/68/dc/38dc68" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/profiler/6d/8d/a58d6d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/profiler/71/ea/42ea71" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/profiler/73/bf/16bf73" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/profiler/7f/1d/6c1d7f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/profiler/85/0c/d40c85" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/profiler/87/2c/472c87" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/profiler/8c/b4/a3b48c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/profiler/8d/87/95878d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/profiler/90/51/515190" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/profiler/90/f0/0bf090" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/profiler/92/7f/887f92" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/profiler/9b/97/34979b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/profiler/a5/dd/bbdda5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/profiler/a7/59/fe59a7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/profiler/a8/04/6c04a8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/profiler/aa/95/db95aa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/profiler/b0/6b/ab6bb0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/profiler/b0/70/0a70b0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/profiler/b0/cd/f1cdb0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/profiler/c0/6d/226dc0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/profiler/c0/75/3a75c0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/profiler/c8/76/4c76c8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/profiler/c9/6b/586bc9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/profiler/d0/27/6c27d0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/profiler/d2/0a/b40ad2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/profiler/d3/1a/251ad3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/profiler/d3/c2/63c2d3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/profiler/e6/6b/0b6be6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/profiler/f3/9c/029cf3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/profiler/f6/c7/6fc7f6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/profiler/index.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/var/cache/dev/twig/a7/a7d944f05d639851921165a7109dbc7219e8d57b60753f8e460911098bd4e30a.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/vendor/doctrine/doctrine-bundle/.github/workflows/coding-standards.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/vendor/doctrine/doctrine-bundle/.github/workflows/release-on-milestone-closed.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/vendor/doctrine/doctrine-bundle/Dbal/ManagerRegistryAwareConnectionProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/vendor/doctrine/doctrine-bundle/UPGRADE-2.2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/vendor/doctrine/instantiator/.github/workflows/coding-standards.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/vendor/doctrine/instantiator/.github/workflows/continuous-integration.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/vendor/doctrine/instantiator/.github/workflows/phpbench.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/vendor/doctrine/instantiator/.github/workflows/release-on-milestone-closed.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RuhaShop/vendor/doctrine/instantiator/.github/workflows/static-analysis.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RuhaShop" beforeDir="false" afterPath="$PROJECT_DIR$/RuhaShop" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RuhaShop/.env" beforeDir="false" afterPath="$PROJECT_DIR$/RuhaShop/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RuhaShop/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/RuhaShop/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RuhaShop/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/RuhaShop/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RuhaShop/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/RuhaShop/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RuhaShop/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/RuhaShop/config/routes.yaml" afterDir="false" />
@@ -1946,6 +2788,13 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/RuhaShop/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Twig" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/RuhaShop" />
@@ -2056,17 +2905,20 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1jrmGzVE9bFHYH8p5DAAjuQzilr" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/RuhaShop/public" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -2087,7 +2939,11 @@
       <workItem from="1604681871183" duration="2374000" />
       <workItem from="1604831109387" duration="20000" />
       <workItem from="1604907464896" duration="13498000" />
-      <workItem from="1604940809020" duration="2856000" />
+      <workItem from="1604940809020" duration="3386000" />
+      <workItem from="1604991316529" duration="6906000" />
+      <workItem from="1604999395694" duration="4000" />
+      <workItem from="1605074985107" duration="4051000" />
+      <workItem from="1605162764333" duration="4490000" />
     </task>
     <servers />
   </component>
@@ -2106,22 +2962,41 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="1090" y="399" key="#Composer" timestamp="1604684780690">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1090" y="399" key="#Composer/0.0.2560.1040@0.0.2560.1040" timestamp="1604684780690" />
-    <state x="987" y="243" key="NewPhpClassDialog" timestamp="1604575660443">
+    <state x="907" y="287" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1605079043024">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="987" y="243" key="NewPhpClassDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1604575660443" />
-    <state x="781" y="165" key="SettingsEditor" timestamp="1604684767098">
+    <state x="907" y="287" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1605079043024" />
+    <state x="1085" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1604996536367">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="781" y="165" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1604684767098" />
-    <state x="987" y="253" width="633" height="534" key="find.popup" timestamp="1604925343603">
+    <state x="1085" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1604996536367" />
+    <state x="987" y="243" key="NewPhpClassDialog" timestamp="1605164948081">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="987" y="253" width="633" height="534" key="find.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1604925343603" />
+    <state x="987" y="243" key="NewPhpClassDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1605164948081" />
+    <state x="1114" y="443" key="NewPhpFileDialog" timestamp="1605078747069">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1114" y="443" key="NewPhpFileDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1605078747069" />
+    <state x="781" y="165" key="SettingsEditor" timestamp="1605079008512">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="781" y="165" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1605079008512" />
+    <state x="987" y="253" width="633" height="534" key="find.popup" timestamp="1605079491226">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="987" y="253" width="633" height="534" key="find.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1605079491226" />
+    <state x="943" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605078182596">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="943" y="225" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1605078182596" />
   </component>
 </project>
